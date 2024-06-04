@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع التسويق</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #293235 3px solid;
+        }
+        header h1 {
+            text-align: center;
+        }
+        nav {
+            float: right;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav li {
+            display: inline;
+            margin-left: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section#main {
+            float: right;
+            width: 70%;
+        }
+        section#sidebar {
+            float: right;
+            width: 30%;
+            background: #D5DBDB;
+            padding: 15px;
+        }
+        .product {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .product img {
+            max-width: 100%;
+            display: block;
+            margin: auto;
+            border-radius: 5px;
+        }
+        .product h2 {
+            text-align: center;
+        }
+        .contact-form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .contact-form input[type="submit"] {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CHA9ALA MARKETING</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#">المنتجات</a></li>
+                    <li><a href="#">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <section id="main">
+            <div class="product">
+                <img src="chalel.jpg" alt="منتج">
+                <h2>Slip rayen :اسم المنتج</h2>
+                <p>Slip ynik fel ras + fih ri7et snen</p>
+                <p>prix:malyoun</p>
+            </div>
+        </section>
+        <section id="sidebar">
+            <div class="contact-form">
+                <h2>اتصل بنا لمزيد من المعلومات</h2>
+                <form action="#">
+                    <input type="text" name="name" placeholder="الاسم">
+                    <input type="email" name="email" placeholder="البريد الإلكتروني">
+                    <textarea name="message" placeholder="الرسالة"></textarea>
+                    <input type="submit" value="إرسال">
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
